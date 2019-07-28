@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+div{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  display: flex;
+  justify-content: center; 
+  padding-top: 35px;
+}
+main{
+  padding-top: 100px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+}
+button{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100px;
+  width: 100px;
+  font-size: 80px;
+  background-color: #000;
+  color: #fff;
+  border: solid 2px #fff;
+}
+button:focus{
+  outline: none;
+}
